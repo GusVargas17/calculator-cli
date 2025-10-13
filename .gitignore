@@ -1,0 +1,41 @@
+# 🐍 Entorno virtual
+.venv/
+venv/
+
+# 🧠 Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 🧪 Archivos de Pytest y coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 📦 Dependencias locales o temporales
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# 📚 Logs y bases de datos temporales
+*.log
+*.sqlite3
+*.db
+
+# 🧰 Configuración de VS Code
+.vscode/
+*.code-workspace
+
+# ⚙️ Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# 🚀 Archivos de distribución (si luego empacas el proyecto)
+build/
+dist/
+*.tar.gz
+
+# 📄 Documentación generada automáticamente
+docs/_build/
