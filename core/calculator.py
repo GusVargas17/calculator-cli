@@ -71,10 +71,6 @@ class Calculator:
         Return:
         (int | float): base ** exponent.
         """
-        # Verifica si es una raíz par de un negativo (ej: a=-4, b=0.5)
-        # Se requiere una comprobación más compleja, pero para una calculadora simple:
-        # Si a es negativo y b es 0.5 (o similar), Python devuelve 'complex'.
-        # Si solo quieres reales, podrías añadir:
         if a < 0 and b != round(b):
             raise ValueError("Cannot calculate real power of a negative base with a fractional exponent.")
         return a ** b
@@ -153,7 +149,7 @@ class Calculator:
 
     def absolute(self, a: Union[int, float]) -> Union[int, float]:
         """
-        Returns the absolute value of the number.
+        Calcule the absolute value of the number.
 
         Parameters:
         a (int | float): positive or negative number
