@@ -19,3 +19,20 @@ This project was developed following Clean Code, SOLID principles and a Test-Dri
 
         git clone https://github.com/GusVargas17/calculator-cli.git
         cd calculator-cli
+
+2. Create and activate a virtual environment:
+
+        python -m venv .venv
+        source .venv/bin/activate      # Linux or macOS
+        # .venv\Scripts\activate       # Windows
+
+3. Install the dependencies:
+
+        pip install -r requirements.txr
+
+## Run the Program
+
+To start the calculator in CLI mode:
+
+        python calculator-cli/main.py
+
