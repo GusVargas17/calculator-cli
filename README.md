@@ -1,9 +1,9 @@
-# Calculator CLI
+# 🧮 Calculator CLI
 
-A simple and modular command-line calculator built in Python.
-This project was developed following Clean Code, SOLID principles and a Test-Driven Development (TDD) approach
+A simple and modular command-line calculator built with Python.  
+This project was developed following **Clean Code**, **SOLID principles**, and a **Test-Driven Development (TDD)** approach.
 
-## Projet Structure
+## 🧩 Projet Structure
 
     calculator-cli
     ├── core/                # Core logic (Calculator class)
@@ -13,7 +13,7 @@ This project was developed following Clean Code, SOLID principles and a Test-Dri
     ├── requirements.txt     # Project dependencies
     └── README.md            # Documentation
 
-## Installation
+## ⚙️ Installation
 
 1. Clone repository
 
@@ -28,11 +28,31 @@ This project was developed following Clean Code, SOLID principles and a Test-Dri
 
 3. Install the dependencies:
 
-        pip install -r requirements.txr
+        pip install -r requirements.txt
 
-## Run the Program
+## 🚀 Run the Program
 
 To start the calculator in CLI mode:
 
         python calculator-cli/main.py
 
+## 🧪 Run tests
+
+        PYTHONPATH=. pytest -v
+
+## 💻 Technologies Used
+
+        Python 3.13
+        Pytest
+        Virtual Environment (venv)
+        Command-Line Interface (CLI)
+
+## 🎯 Project Goals
+        Reinforce backend development skills.
+        Apply object-oriented programming and testing methodologies.
+        Maintain clean, maintainable, and scalable code.
+
+## 👤 Author
+
+        Developed by Gustavo Vargas,
+        Backend Developer in training 
