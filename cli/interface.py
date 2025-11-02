@@ -2,11 +2,11 @@ from core.calculator import Calculator
 
 def add() -> None:
     print("\n============== ADD ==============")
-    print("\n----ENTER TWO NUMBERS TO ADD----\n")
+    print("\n-----ENTER TWO NUMBERS TO ADD-----\n")
     num_1 = float(input("Enter the first number: "))
     num_2 = float(input("Enter the second number: "))
     calc = Calculator()
-    print(f"{num_1} + {num_2} = {calc.add(num_1, num_2)}")
+    print(f"{num_1} + {num_2} = {calc.add(num_1, num_2):.2f}")
 
 def subtract() -> None:
     print("\n============== SUBTRACT ==============")
@@ -14,7 +14,7 @@ def subtract() -> None:
     num_1 = float(input("Enter the first number: "))
     num_2 = float(input("Enter the second number: "))
     calc = Calculator()
-    print(f"{num_1} - {num_2} = {calc.subtract(num_1, num_2)}")
+    print(f"{num_1} - {num_2} = {calc.subtract(num_1, num_2):.2f}")
 
 def multiplication() -> None:
     print("\n============== MULTIPLICATION ==============")
@@ -22,7 +22,7 @@ def multiplication() -> None:
     num_1 = float(input("Enter the first number: "))
     num_2 = float(input("Enter the second number: "))
     calc = Calculator()
-    print(f"{num_1} * {num_2} = {calc.multiply(num_1, num_2)}")
+    print(f"{num_1} * {num_2} = {calc.multiply(num_1, num_2):.2f}")
 
 def divide() -> None:
     print("\n============== DIVIDE ==============")
@@ -30,7 +30,7 @@ def divide() -> None:
     num_1 = float(input("Enter the first number: "))
     num_2 = float(input("Enter the second number: "))
     calc = Calculator()
-    print(f"{num_1} / {num_2} = {calc.divide(num_1, num_2)}")
+    print(f"{num_1} / {num_2} = {calc.divide(num_1, num_2):.2f}")
 
 def exponentiaton() -> None:
     print("\n============== EXPONENTIATION ==============")
@@ -38,7 +38,7 @@ def exponentiaton() -> None:
     num_1 = float(input("Enter the base: "))
     num_2 = float(input("Enter the exponent: "))
     calc = Calculator()
-    print(f"{num_1} ** {num_2} = {calc.power(num_1, num_2)}")
+    print(f"{num_1} ** {num_2} = {calc.power(num_1, num_2):.2f}")
 
 def root() -> None:
     print("\n============== NTH ROOT ==============")
@@ -46,14 +46,14 @@ def root() -> None:
     num_1 = float(input("Enter the radical: "))
     num_2 = float(input("Enter the index: "))
     calc = Calculator()
-    print(f"root {num_2} of {num_1} = {calc.root(num_1, num_2):2f}")
+    print(f"root {num_2} of {num_1} = {calc.root(num_1, num_2):.2f}")
 
 def square_root() -> None:
     print("\n============== SQUARE ROOT ==============")
     print("\n----ENTER A NUMBER TO GET ITS SQUARE ROOT----\n")
     num = float(input("Enter the positive number: "))
     calc = Calculator()
-    print(f"The square root of {num} = {calc.square_root(num):2f}")
+    print(f"The square root of {num} = {calc.square_root(num):.2f}")
 
 def logarithm() -> None:
     print("\n============== LOGARITHM ==============")
@@ -61,21 +61,21 @@ def logarithm() -> None:
     num_1 = float(input("Enter the argument: "))
     num_2 = float(input("Enter the base: "))
     calc = Calculator()
-    print(f"Logarithm of {num_1} in base {num_2} = {calc.logarithm(num_1, num_2):2f}")
+    print(f"Logarithm of {num_1} in base {num_2} = {calc.logarithm(num_1, num_2):.2f}")
 
 def factorial() -> None:
     print("\n============== FACTORIAL ==============")
     print("\n----ENTER A POSITIVE INTEGER----\n")
     num = int(input("Enter the number (number > 0): "))
     calc = Calculator()
-    print(f"The factorial of {num} = {calc.factorial(num):2f}")
+    print(f"The factorial of {num} = {calc.factorial(num):.2f}")
 
 def absolute() -> None:
     print("\n============== ABSOLUTE VALUE ==============")
     print("\n----ENTER A NUMBER TO GET ITS ABSOLUTE VALUE----\n")
     num = float(input("Enter the number: "))
     calc = Calculator()
-    print(f"The absolute value of {num} = {calc.absolute(num):2f}")
+    print(f"The absolute value of {num} = {calc.absolute(num):.2f}")
 
 def module() -> None:
     print("\n============== MODULO ==============")
@@ -83,7 +83,7 @@ def module() -> None:
     num_1 = float(input("Enter the first number: "))
     num_2 = float(input("Enter the second number: "))
     calc = Calculator()
-    print(f"{num_1} % {num_2} = {calc.modulo(num_1, num_2):2f}")
+    print(f"{num_1} % {num_2} = {calc.modulo(num_1, num_2):.2f}")
 
 def percentage() -> None:
     print("\n============== PERCENTAGE ==============")
@@ -91,7 +91,7 @@ def percentage() -> None:
     num_1 = float(input("Enter the percent: "))
     num_2 = float(input("Enter the number: "))
     calc = Calculator()
-    print(f"The {num_1} percent of {num_2} = {calc.percentage(num_1, num_2):2f}")
+    print(f"The {num_1} percent of {num_2} = {calc.percentage(num_1, num_2):.2f}")
 
 def pause() -> None:
     input("\nPress ENTER to continue..\n")
